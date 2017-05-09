@@ -1,3 +1,64 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.hr-star{
+  background-color: black;
+  height: 3px;
+  width: 8.33%;
+  top: 5px;
+  position: relative;
+
+}
+h1{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 60px;
+  color:white;
+}
+header{
+  background-color:#2C3E50;
+  padding: 10px 0;
+}
+li{
+display: inline-block;
+padding: 20px;
+list-style: none;
+}
+.barra{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px;
+}
+.barra:hover{
+  color:purple;
+}
+
+span{
+   color: brown;
+}
+
+#sec-1{
+  background-color: #18BC9C;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+   flex-direction: column;
+   align-items: center;
+   justify-content:center;
+   padding: 70px 0;
+}
+.top::before{
+  font-size: 25px;
+  color:white;
+}
+.adorno{
+  display: flex;
+}
+.rayita{
+  background-color: white;
+  width: 130px;
+  height: 7px;
+  margin: 9px;
+}
