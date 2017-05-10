@@ -44,6 +44,9 @@ header{
   position: relative;
   padding: 0;
 }
+.color{
+  background-color: #18BC9C;
+}
 li{
 display: inline-block;
 padding: 20px;
@@ -255,7 +258,7 @@ button{
 }
 #sec-5 div ul{
   padding: 0;
-  right: 88px;
+  right: 44px;
   position: relative;
   width: 372px;
 }
@@ -267,7 +270,13 @@ button{
   position: relative;
 }
 #sec-5 div ul li a{
-text-decoration: none;
-color: white;
-font-size: 24px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  font-size: 24px;
+  bottom: 9px;
+  right: 7px;
+}
+#sec-5 div p a{
+  color: #18bc9c;
 }
