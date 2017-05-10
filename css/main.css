@@ -13,14 +13,21 @@ body{
 
 }
 h1{
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 60px;
   color:white;
 }
+h3{
+  font-family: Lato,sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 21px;}
+
 header{
   background-color:#2C3E50;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 .menu, .botones{
     display: inline-flex;
@@ -32,8 +39,8 @@ header{
 .botones{
   flex-direction: row;
   align-items: flex-end;
-  justify-content: space-around;
-  width: 66.333%;
+  justify-content: flex-end;
+  width: 65.333%;
   position: relative;
   padding: 0;
 }
@@ -50,16 +57,19 @@ list-style: none;
   font-weight: bold;
 }
 .barra:hover{
-  font-size: 16px;
+  color: #1AAD93;
 }
 
 span{
    color: white;
    font-weight: bold;
-   font-size: 21px;
+   font-size: 24px;
 }
-
+.crecer{
+  font-size: 24px;
+}
 #sec-1{
+  position: relative;
   background-color: #18BC9C;
   display: -webkit-flex;
   display: flex;
@@ -68,6 +78,8 @@ span{
    align-items: center;
    justify-content:center;
    padding: 70px 0;
+   top: 77px;
+   height: 431px;
 }
 .top::before{
   font-size: 25px;
@@ -77,10 +89,185 @@ span{
   display: flex;
   position: relative;
   bottom: 35px;
+
 }
 .rayita{
   background-color: white;
   width: 130px;
   height: 7px;
   margin: 9px;
+}
+
+#sec-2{
+  position: relative;
+  background-color: #ffffff;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+  padding: 70px 0;
+  top: 77px;
+  height: 691px;
+}
+.white{
+color: white;
+}
+.black{
+background-color: black
+}
+.starBlack::before{
+  color: black;
+}
+.title{
+  font-size: xx-large;
+}
+.negro{
+  display: flex;
+  position: relative;
+  bottom: 20px;
+}
+.galeria{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+.galeria img{
+  height: 25%;
+  width: 25%;
+  margin: 22px;
+}
+#sec-3{
+  position: relative;
+  background-color: #18BC9C;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+   flex-direction: column;
+   align-items: center;
+   justify-content:flex-start;
+   padding: 70px 0;
+   top: 77px;
+   height: 431px;
+}
+.aboutParraf{
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction:row;
+  flex-direction:row;
+  align-items: center;
+  justify-content:center;
+
+}
+.aboutParraf div{
+  margin: 0 22px;
+  width: 25%;
+  height: 100px;
+  color: white;
+  font-size: 18px;
+}
+.download{
+  position: relative;
+  top: 140px;
+  border: white 1px solid;
+  padding: 12px;
+  border-radius: 7px;
+  background: #18bc9c ;
+  color: white
+}
+#sec-4{
+  position: relative;
+  background-color: white;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+   flex-direction: column;
+   align-items: center;
+   justify-content:flex-start;
+   padding: 70px 0;
+   top: 77px;
+   height: 431px;
+}
+form{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content:flex-start;
+}
+label{
+  display: none;
+  color: #18bc9c;
+  font-size: 12px;
+}
+input,textarea{
+  width: 341px;
+  height: 51px;
+  border: none;
+  outline: 0;
+  display: block;
+  position: relative;
+  left: 24px;
+  font-size: 20px;
+}
+form div{
+border-bottom: 1px solid grey;
+margin-bottom: 11px;
+}
+
+button{
+  position: relative;
+  top: 14px;
+  border: white 1px solid;
+  padding:13px 19px 25px 19px;
+  border-radius: 7px;
+  background: #18bc9c ;
+  color: white;
+  font-size: 20px;
+}
+#sec-5{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: space-around;
+  background-color: #2C3E50;
+  height: 300px;
+}
+#sec-5 div{
+  box-sizing: border-box;
+  height: 100px;
+  width: 24.33%;
+}
+#sec-5 div h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+#sec-5 div p{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+#sec-5 div ul{
+  padding: 0;
+  right: 88px;
+  position: relative;
+  width: 372px;
+}
+#sec-5 div ul li{
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 3.33%;
+  height: 12px;
+  position: relative;
+}
+#sec-5 div ul li a{
+text-decoration: none;
+color: white;
+font-size: 24px;
 }
